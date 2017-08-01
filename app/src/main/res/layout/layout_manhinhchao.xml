@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/manhinhcho"
+    tools:context="com.example.nhuviet.thucphamxanh.View.Manhinhchao.Activity_Manhinhchao">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:paddingTop="50dp"
+        android:paddingLeft="79dp"
+        android:paddingRight="79dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/gio"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mua Sắp Thực Phẩm Xanh Bây Giờ, Vì Một Sức Khỏe Mỏi Ngày.!"
+            android:textColor="#fdfdfe"
+            android:textSize="14dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/tien"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chi Nhánh Gần + Giao Hàng Tận Nơi + Thanh Toán Dễ Dàng"
+            android:textColor="#fdfdfe"
+            android:textSize="14dp"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/baove"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100% Bảo Vệ Người Tiêu Dùng"
+            android:textColor="#fdfdfe"
+            android:textSize="14dp"
+            android:layout_gravity="fill"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="-18dp"
+        android:layout_gravity="bottom|center"
+        />
+
+</FrameLayout>

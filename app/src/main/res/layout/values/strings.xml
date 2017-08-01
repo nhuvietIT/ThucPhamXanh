@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Thực Phẩm Xanh</string>
+    <string name="timkiem">Tìm Kiếm</string>
+    <string name="giohang">Giỏ Hàng</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <string name="dangnhapdangki">Đăng nhập - Đăng ký</string>
+    <string name = "facebook_app_id" >110705272841346</string>
+
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+
+</resources>

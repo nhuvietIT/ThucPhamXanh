@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/backgrundToobar</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorcam</item>
+    </style>
+    
+    <style name="menucolor" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/colorden</item>
+        <item name="drawerArrowStyle">@style/changeDrawertoogle</item>
+    </style>
+
+    <style name="changeDrawertoogle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/colorwhile</item>
+    </style>
+    
+    <style name="capfale" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="EditTextHint"  parent="TextAppearance.Design.Tab">
+        <item name="color">@color/colorfacebook</item>
+        <item name="android:textColorPrimary">@color/colorwhile</item>
+    </style>
+
+    <declare-styleable name="PassWord_EditText">
+        <attr name="useeyeTrike" format="boolean"> </attr>
+    </declare-styleable>
+</resources>

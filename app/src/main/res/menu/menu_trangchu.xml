@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/it_seach1"
+        android:title="@string/giohang"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:visible="false" />
+    <item
+        android:id="@+id/it_seach"
+        android:title="@string/giohang"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:visible="false" />
+
+
+    <item
+        android:id="@+id/it_goihang"
+        android:title="@string/giohang"
+        android:icon="@drawable/ic_shopping_cart_white_24dp"
+        app:showAsAction="always"
+        android:visible="true"
+        app:actionLayout="@layout/cutom_it_gioihang"/>
+    <item
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        android:title="more"
+        app:showAsAction="always">
+        <menu >
+            <item
+                android:id="@+id/dangnhap"
+                android:title="Đăng Nhập"
+                android:icon="@drawable/ic_input_black_24dp"
+                />
+
+            <item
+                android:id="@+id/thongbao"
+                android:title="Thông Báo"
+                android:icon="@drawable/ic_add_alert_black_24dp"
+                />
+            <item
+                android:id="@+id/mongmuon"
+                android:title="Danh Sách Mong Muốn"
+                android:icon="@drawable/ic_favorite_border_black_24dp"
+                />
+            <item
+                android:id="@+id/dondathang"
+                android:title="Đơn Hàng Của Tôi"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                />
+            <item
+                android:id="@+id/caidat"
+                android:title="Cài Đặt"
+                android:icon="@drawable/ic_settings_black_24dp"
+                />
+            <item
+                android:id="@+id/chinhsach"
+                android:title="Chính Sách"
+                android:icon="@drawable/ic_description_black_24dp"
+                />
+            <item
+                android:id="@+id/trogiup"
+                android:title="Trợ Giúp"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                />
+            <item
+                android:id="@+id/dangxuat"
+                android:title="Đăng Xuất"
+                android:icon="@drawable/dangxuatms"
+                android:visible="false"
+                />
+        </menu>
+
+
+    </item>
+
+
+</menu>

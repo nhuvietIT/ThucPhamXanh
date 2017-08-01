@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="backgrundToobar">#0c7b10</color>
+    <color name="colorwhile">#ffffff</color>
+    <color name="colorgiohang">#f53a01</color>
+    <color name="colorcam">#d7e9f109</color>
+    <color name="colorcam1">#f359584f</color>
+    <color name="colortrang">#fbffffff</color>
+    <color name="colorden">#9b9797</color>
+    <color name="colorfacebook">#4a6ea9</color>
+    <color name="colorgoogle">#da4835</color>
+    <color name="colordangnhap">#cee3f7e5</color>
+    <color name="colornencradview">#531fbc51</color>
+    <color name="colorviendangnhap">#950c7b10</color>
+    <color name="colorred">#faec0313</color>
+    <color name="colorxanhxanh">#00ece4e7</color>
+    </resources>

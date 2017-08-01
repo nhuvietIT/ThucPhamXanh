@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:aap="http://schemas.android.com/tools"
+    android:background="@color/colordangnhap"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:id="@+id/lick_linnerlayoutDM"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewDM"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/colordangnhap"
+        app:cardCornerRadius="5dp">
+
+
+        <ProgressBar
+            android:id="@+id/pro_loadsDM"
+            android:layout_width="85dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp" />
+
+
+        <TextView
+            android:id="@+id/tx_RC_tẹnSPDM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:text="Loại SP"
+            android:textColor="@color/colorviendangnhap"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/im_Rc_loaiSPDM"
+            android:layout_width="349dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+
+            />
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

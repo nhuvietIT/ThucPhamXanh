@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lick_linnerlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colordangnhap"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView_GH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        android:backgroundTint="@color/colordangnhap"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="367dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:orientation="vertical"
+             android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/im_Rc_loai_GH"
+                android:layout_width="110dp"
+                android:layout_height="120dp"
+                android:background="@color/colordangnhap"
+                android:src="@drawable/manhinhcho" />
+            <ProgressBar
+                android:id="@+id/pro_loads1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="-86dp" />
+         </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tx_RC_tẹnSP_GH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Loại SP" />
+
+                <TextView
+                    android:id="@+id/tx_giaSP_GH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginLeft="25dp"
+                    android:text="Giá SP"
+                    android:textColor="@color/colorred" />
+
+
+                <TextView
+                    android:id="@+id/tx_giamgiaSP_GH"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:text="Giảm giá"
+                    android:visibility="gone" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

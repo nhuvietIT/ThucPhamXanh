@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/colordangnhap">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:src="@drawable/logo" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:hintTextAppearance="@style/EditTextHint">
+
+        <com.example.nhuviet.thucphamxanh.CustomView.Clear_EditText
+            android:id="@+id/ed_diachiemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa Chỉ Email"
+            android:textAllCaps="false"
+            android:textColorHint="@color/colorden"
+            android:textColor="@color/colorden" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:hintTextAppearance="@style/EditTextHint">
+
+        <com.example.nhuviet.thucphamxanh.CustomView.PassWork_EditText
+            android:id="@+id/ed_matkhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật Khẩu"
+            android:textAllCaps="false"
+            android:textColor="@color/colorden"
+            android:textColorHint="@color/colorden"
+            app:useeyeTrike="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txt_quenmatkhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:text="Quên Mật Khẩu?"
+        android:textAllCaps="false"
+        android:textColor="@color/backgrundToobar"
+        />
+
+    <Button
+        android:id="@+id/bt_dangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/backgrundToobar"
+        android:text="Đăng Nhập"
+        android:textColor="@color/colorwhile" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Hoặc Đăng Nhập"
+        android:textColor="@color/backgrundToobar"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/bt_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/vien_facebook"
+            android:drawableLeft="@drawable/facebookiconsmall"
+            android:text="Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/colorfacebook" />
+
+        <Button
+            android:id="@+id/bt_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/vien_google"
+            android:drawableLeft="@drawable/googleplussmall"
+            android:text="Google"
+            android:textAllCaps="false"
+            android:textColor="@color/colorgoogle" />
+    </LinearLayout>
+
+</LinearLayout>

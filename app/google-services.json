@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "697012684745",
+    "project_id": "firebase-thucphamxanh"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697012684745:android:4803580eaae0743b",
+        "android_client_info": {
+          "package_name": "com.example.nhuviet.thucphamxanh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697012684745-nuugqonfqrt461l5552ah56b3t865jia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nhuviet.thucphamxanh",
+            "certificate_hash": "815d95e35fb328b14fd1caeb2b29f714fd1adc77"
+          }
+        },
+        {
+          "client_id": "697012684745-gagtfvur4f402kt0v90205orj8cj93p2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLZVv_8YrDqHmP9dtowSyx1YWg8ac6aUk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

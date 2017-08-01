@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lick_linnerlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colordangnhap"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+
+    <ImageView
+        android:id="@+id/im_Rc_loai_QC"
+        android:layout_width="990px"
+        android:layout_height="235px"
+        android:background="@color/colordangnhap"
+        android:src="@drawable/logo" />
+
+    <ProgressBar
+        android:id="@+id/pro_loads1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="160dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colordangnhap">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_quangcao"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tx_tentren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Các loai thực phẩm được ưa chuộng nhất"
+        android:textColor="@color/colorviendangnhap"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_tren"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/tx_tengiua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Các Loại rau"
+        android:textColor="@color/colorviendangnhap"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_margin="5dp"/>
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/recycler_giua"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <TextView
+        android:id="@+id/txt_tenduoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Các Loại rau xanh"
+        android:textColor="@color/colorviendangnhap"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_gravity="center"
+        android:id="@+id/recycler_duoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

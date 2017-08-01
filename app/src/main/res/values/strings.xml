@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Thực Phẩm Xanh</string>
+    <string name="timkiem">Tìm Kiếm</string>
+    <string name="giohang">Giỏ Hàng</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <string name="dangnhapdangki">Đăng nhập - Đăng ký</string>
+    <string name="facebook_app_id">526355994421443</string>
+    <string name="google_plus_client">697012684745-nuugqonfqrt461l5552ah56b3t865jia.apps.googleusercontent.com</string>
+
+    <string name="tv_dkdienthongtin">Điền vào tất cả các thông tin bên dưới !</string>
+    <string name="swith_kienmai">Tôi muốn nhận thông báo khiến mãi qua email</string>
+    <string name="dieukhoan">Chúng tôi đã hiểu rõ tài khoản bảo mật của Thực Phẩm Xanh Điện Bàn</string>
+    <string name="chuhoathuong">Mật khẩu bao gồm 6-20 kí tự, một số và một chữ hoa</string>
+    <string name="camket">Tôi cam kết các thông tin trên là hoàn toàn chính xác</string>
+    <string name="timkiem1">Tìm Kiếm</string>
+    <string name="timkiem2">Tìm Kiếm</string>
+</resources>

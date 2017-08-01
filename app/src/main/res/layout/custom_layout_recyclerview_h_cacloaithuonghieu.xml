@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colordangnhap">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_margin="3dp"
+        android:layout_gravity="center"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:cardCornerRadius="8dp"
+        android:backgroundTint="@color/colordangnhap">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:id="@+id/pro_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tx_RC_tieudeTH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten loại Thuong Hieu"
+        android:layout_marginBottom="160dp"
+        android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/im_RC_loaiTH"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center" />
+    </android.support.v7.widget.CardView>
+</LinearLayout>
